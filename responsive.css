@@ -1,0 +1,146 @@
+@media (max-width: 1300px) {
+    .uni-card{
+        width: 17rem;
+        height: 12rem;
+    }
+    .down{
+        justify-content: space-evenly;
+        padding-top: 0;
+        height: 60%;
+    }
+    .top{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .uni-card{
+        width: 16rem;
+        height: 12rem;
+    }
+    .down{
+        padding-bottom: 0;
+    }
+}   
+
+@media screen and (max-width: 1000px) { 
+    .uni-card{
+        width: 14rem;
+        height: 11rem;
+    }
+    .down{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 890px) { 
+    .down{
+        flex-direction: column;
+        padding-bottom: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 70%;
+        padding: 1rem 1rem;
+    }
+    .top p{
+        width: 90%;
+    }
+    .clm2{
+        width: 100%;
+        gap: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card{
+        width: 20rem;
+        height: 23rem;
+    }
+    .first{
+        width: 20rem;
+    
+    }
+    .second{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) { 
+    .clm2{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .top{
+        justify-content: space-evenly;
+        gap: 0;
+    }
+    .down{
+        height: 150vh;
+        gap: 1.5rem;
+        padding: 0;
+    }
+    header{
+        height: 220vh;
+    }
+    fotter{
+        position: absolute;
+        bottom: 0;
+    }
+    fotter p{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .top{
+        margin: 0;
+    }
+    .top h1{
+        font-size: 1.8rem;
+    }
+    .top span{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top{
+        margin: 0;
+        padding: 0;
+        padding-top: 5rem;
+        height: 15%;
+    }
+    .uni-card{
+        width: 90%;
+        height: 23rem;
+    }
+    .down{
+        margin-top: 3rem;
+        justify-content: space-evenly;
+        padding: 3rem 0;
+    }
+    .top span{
+        font-size: 1.8rem;
+    }
+    .top h1{
+        font-size: 1.9rem;
+    }
+    .clm2{
+        justify-content: center;
+        gap: 4rem;
+    }
+    .first{
+        width: 90%;
+        height: 15rem;
+    }
+    .second{
+        width: 90%;
+        height: 15rem;
+    }
+    header{
+        height: 190vh;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
+
+
